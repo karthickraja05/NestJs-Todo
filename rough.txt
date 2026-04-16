@@ -1,0 +1,9 @@
+nest new project_name
+npm install @nestjs/typeorm typeorm mysql2
+npm install class-validator class-transformer
+
+
+
+nest generate module auth 
+nest generate controller auth --no-spec
+nest generate service auth --no-spec
